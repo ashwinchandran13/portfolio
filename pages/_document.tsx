@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
         </Head>
-        <body>
+        <body className="bg-gradient-to-r from-green to-blue-400">
           <Main />
           <NextScript />
         </body>

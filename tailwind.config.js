@@ -5,7 +5,13 @@ module.exports = {
     fontFamily: {
       pressstart2p: ["'Press Start 2P'"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        green: {
+          DEFAULT: '#00f260'
+        }
+      }
+    },
   },
   variants: {
     extend: {},
