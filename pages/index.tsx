@@ -5,19 +5,21 @@ import ServiceCard from '../components/serviceCard';
 
 const index = () => { 
   return (
-    <div>
-      <h5>I am currently working as a Software Developer
+    <div className="flex flex-col flex-grow px-6 pt-1">
+      <h5 className="my-3 font-medium">I am currently working as a Software Developer
         mainly focusing on frontend and backend development.
         I have 1+ year experience in web development and beginner 
         knowledge in system programming.
       </h5>
-      <div>
-        <h6>What I Offer</h6>
-        <div>
+      <div className="flex-grow p-4 mt-5 bg-gray-400" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
+        <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
+        <div className="grid gap-6 lg:grid-cols-2">
           {
-            // eslint-disable-next-line react/jsx-key
-            services.map((service) => <ServiceCard service={service}/>)
-          }
+            services.map((service, key) => 
+            <div key={key} className="bg-gray-200 rounded-lg lg:col-span-1">
+              <ServiceCard service={service}/>
+            </div>
+          )}
         </div>
       </div>
     </div>
