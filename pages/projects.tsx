@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
         <div className="p-4">
-            project page
+            <nav>Navbar</nav>
         </div>
     )
 }

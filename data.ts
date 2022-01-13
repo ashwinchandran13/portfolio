@@ -1,5 +1,5 @@
 import { RiComputerLine } from 'react-icons/ri'; 
-import { IService, ISkill } from './type';
+import { IProject, IService, ISkill } from './type';
 import { FaServer } from 'react-icons/fa';
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
 import { MdDeveloperMode } from 'react-icons/md';
@@ -78,4 +78,61 @@ export const tools:ISkill[] = [
         level: '30%',
         Icon: BsCircleFill
     }
+]
+
+export const projects:IProject[] = [
+    {
+        name: 'Dummy Data',
+        description: 'this is a project filler, ignore this',
+        image_path: '/images/sample-bg.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: ['react', 'node'],
+        key_techs: ['React', 'Next']
+    },
+    {
+        name: 'Dummy Data',
+        description: 'this is a project filler, ignore this',
+        image_path: '/images/sample-bg.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: ['react', 'node'],
+        key_techs: ['React', 'Next']
+    },
+    {
+        name: 'Dummy Data',
+        description: 'this is a project filler, ignore this',
+        image_path: '/images/sample-bg.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: ['react', 'node'],
+        key_techs: ['React', 'Next']
+    },
+    {
+        name: 'Dummy Data',
+        description: 'this is a project filler, ignore this',
+        image_path: '/images/sample-bg.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: ['react', 'node'],
+        key_techs: ['React', 'Next']
+    },
+    {
+        name: 'Dummy Data',
+        description: 'this is a project filler, ignore this',
+        image_path: '/images/sample-bg.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: ['react', 'node'],
+        key_techs: ['React', 'Next']
+    },
+    {
+        name: 'Dummy Data',
+        description: 'this is a project filler, ignore this',
+        image_path: '/images/sample-bg.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: ['react', 'node'],
+        key_techs: ['React', 'Next']
+    },
 ]
