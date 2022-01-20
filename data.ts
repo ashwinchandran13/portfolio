@@ -105,7 +105,7 @@ export const projects:IProject[] = [
         image_path: '/images/sample-bg.jpg',
         deployed_url: '',
         github_url: '',
-        category: ['react', 'node'],
+        category: ['express'],
         key_techs: ['React', 'Next']
     },
     {
@@ -123,7 +123,7 @@ export const projects:IProject[] = [
         image_path: '/images/sample-bg.jpg',
         deployed_url: '',
         github_url: '',
-        category: ['react', 'node'],
+        category: ['react', 'mongo'],
         key_techs: ['React', 'Next']
     },
     {
