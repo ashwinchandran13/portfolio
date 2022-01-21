@@ -74,7 +74,7 @@ export const tools:ISkill[] = [
         Icon: BsCircleFill
     },
     {
-        name: 'UE5',
+        name: 'UE4',
         level: '30%',
         Icon: BsCircleFill
     }
