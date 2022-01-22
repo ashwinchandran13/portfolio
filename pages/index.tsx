@@ -5,17 +5,22 @@ import ServiceCard from '../components/serviceCard';
 
 import { motion } from 'framer-motion';
 import { fadeInUp, routeAnimation, stagger } from '../animations';
+import Head from 'next/head';
 
-const index = ({endpoint}) => {
-  console.log(endpoint);
+const index = () => {
   
   return (
     <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} initial="initial" animate="animate" exit="exit">
-      <h5 className="my-3 font-medium">I am currently working as a Software Developer
+      <Head>
+        <title>
+          Web Developer | portfolio
+        </title>
+      </Head>
+      <h6 className="my-3 font-medium">I am currently working as a Software Developer
         mainly focusing on frontend and backend development.
         I have 1+ year experience in web development and beginner 
         knowledge in system programming.
-      </h5>
+      </h6>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
         <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
         <motion.div className="grid gap-6 lg:grid-cols-2" variants={stagger} initial="initial" animate="animate">

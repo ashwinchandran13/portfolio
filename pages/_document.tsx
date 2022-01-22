@@ -9,6 +9,14 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+          <meta 
+            name="description"
+            content="Ashwin Chandran Web Developer Portfolio"
+          />
+          <meta 
+            name="keywords"
+            content="React Aws Developer"
+          />
         </Head>
         <body className="bg-gradient-to-r from-green to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white ">
           <Main />

@@ -40,13 +40,13 @@ const Sidebar = () => {
 
             {/* social icon */}
             <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full'>
-                <a href="">
+                <a href="https://www.linkedin.com/in/ashwin-chandran-65274815b/"  aria-label='linkedin'>
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer'/>
                 </a>
-                <a href="">
+                <a href="https://github.com/ashwinchandran13" aria-label='github'>
                     <AiFillGithub className='w-8 h-8 cursor-pointer'/>
                 </a>
-                <a href="">
+                <a href="https://stackoverflow.com/users/13185675/ashwin-chandran" aria-label='stackoverflow'>
                     <DiStackoverflow className='w-8 h-8 cursor-pointer'/>
                 </a>
             </div>
@@ -57,7 +57,6 @@ const Sidebar = () => {
                     <span>Ernakulam, India</span>
                 </div>
                 <p className='my-2'>ashwinchandran13@gmail.com</p>
-                <p className='my-2'>stack overflow link</p>
             </div>
             {/* Email button */}
             <button className='w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none'
