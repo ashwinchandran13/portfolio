@@ -6,7 +6,9 @@ import ServiceCard from '../components/serviceCard';
 import { motion } from 'framer-motion';
 import { fadeInUp, routeAnimation, stagger } from '../animations';
 
-const index = () => { 
+const index = ({endpoint}) => {
+  console.log(endpoint);
+  
   return (
     <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} initial="initial" animate="animate" exit="exit">
       <h5 className="my-3 font-medium">I am currently working as a Software Developer
@@ -31,20 +33,21 @@ const index = () => {
 
 export default index;
 
-// export const getServerSideProps = async (context:GetServerSidePropsContext) => {
+export const getServerSideProps = async (context:GetServerSidePropsContext) => {
 
-//   // whatever happens here is returned as props
+  // whatever happens here is returned as props
 
-//   const res = await fetch('http://localhost:3000/api/services');
-//   const data = await res.json();  
+  // const res = await fetch(`${process.env.VERCEL_URL}/api/services`);
+  // const data = await res.json();  
+  // console.log(data);
+  
+  return {
+    props:{
+      endpoint: process.env.VERCEL_URL,
+    }
+  }
 
-//   return {
-//     props:{
-//       services: data.services,
-//     }
-//   }
-
-// }
+}
 
 // export const getStaticProps = async (context:GetStaticPropsContext) => {
 

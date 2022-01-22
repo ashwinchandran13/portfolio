@@ -1,4 +1,4 @@
-import profilePic from '../Assets/profile-pic.png';
+import profilePic from '../public/assets/profile-pic.png';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiStackoverflow } from 'react-icons/di';
 import { GoLocation } from 'react-icons/go';
@@ -34,7 +34,7 @@ const Sidebar = () => {
             </p>
             <a 
                 className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200' 
-                href='' download='name'>
+                href='/assets/ashwin-resume.pdf' download='ashwin-resume.pdf'>
                 <GiTie className='w-6 h-6'/>Download Resume
             </a>
 

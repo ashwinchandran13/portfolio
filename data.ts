@@ -82,6 +82,7 @@ export const tools:ISkill[] = [
 
 export const projects:IProject[] = [
     {
+        id: 1,
         name: 'Dummy Data',
         description: 'this is a project filler, ignore this',
         image_path: '/images/sample-bg.jpg',
@@ -91,6 +92,7 @@ export const projects:IProject[] = [
         key_techs: ['React', 'Next']
     },
     {
+        id: 2,
         name: 'Dummy Data',
         description: 'this is a project filler, ignore this',
         image_path: '/images/sample-bg.jpg',
@@ -100,6 +102,7 @@ export const projects:IProject[] = [
         key_techs: ['React', 'Next']
     },
     {
+        id: 3,
         name: 'Dummy Data',
         description: 'this is a project filler, ignore this',
         image_path: '/images/sample-bg.jpg',
@@ -109,6 +112,7 @@ export const projects:IProject[] = [
         key_techs: ['React', 'Next']
     },
     {
+        id: 4,
         name: 'Dummy Data',
         description: 'this is a project filler, ignore this',
         image_path: '/images/sample-bg.jpg',
@@ -118,6 +122,7 @@ export const projects:IProject[] = [
         key_techs: ['React', 'Next']
     },
     {
+        id: 5,
         name: 'Dummy Data',
         description: 'this is a project filler, ignore this',
         image_path: '/images/sample-bg.jpg',
@@ -127,6 +132,7 @@ export const projects:IProject[] = [
         key_techs: ['React', 'Next']
     },
     {
+        id: 6,
         name: 'Dummy Data',
         description: 'this is a project filler, ignore this',
         image_path: '/images/sample-bg.jpg',
