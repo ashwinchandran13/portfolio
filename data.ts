@@ -83,62 +83,22 @@ export const tools:ISkill[] = [
 export const projects:IProject[] = [
     {
         id: 1,
-        name: 'Dummy Data',
-        description: 'this is a project filler, ignore this',
-        image_path: '/images/sample-bg.jpg',
+        name: 'Linux Rice',
+        description: 'Custom Linux Interface using i3wm',
+        image_path: '/images/firstrice.jpeg',
         deployed_url: '',
-        github_url: '',
-        category: ['react', 'node'],
-        key_techs: ['React', 'Next']
+        github_url: 'https://github.com/ashwinchandran13/firstrice',
+        category: ['scripting'],
+        key_techs: ['yml', 'shell']
     },
     {
         id: 2,
-        name: 'Dummy Data',
-        description: 'this is a project filler, ignore this',
-        image_path: '/images/sample-bg.jpg',
+        name: 'SpaceX Launch Tracker',
+        description: 'New launches by SpaceX tracked using Graphql, Nextjs',
+        image_path: '/images/spacex-tracker.png',
         deployed_url: '',
-        github_url: '',
-        category: ['react', 'node'],
-        key_techs: ['React', 'Next']
-    },
-    {
-        id: 3,
-        name: 'Dummy Data',
-        description: 'this is a project filler, ignore this',
-        image_path: '/images/sample-bg.jpg',
-        deployed_url: '',
-        github_url: '',
-        category: ['express'],
-        key_techs: ['React', 'Next']
-    },
-    {
-        id: 4,
-        name: 'Dummy Data',
-        description: 'this is a project filler, ignore this',
-        image_path: '/images/sample-bg.jpg',
-        deployed_url: '',
-        github_url: '',
-        category: ['react', 'node'],
-        key_techs: ['React', 'Next']
-    },
-    {
-        id: 5,
-        name: 'Dummy Data',
-        description: 'this is a project filler, ignore this',
-        image_path: '/images/sample-bg.jpg',
-        deployed_url: '',
-        github_url: '',
-        category: ['react', 'mongo'],
-        key_techs: ['React', 'Next']
-    },
-    {
-        id: 6,
-        name: 'Dummy Data',
-        description: 'this is a project filler, ignore this',
-        image_path: '/images/sample-bg.jpg',
-        deployed_url: '',
-        github_url: '',
-        category: ['react', 'node'],
-        key_techs: ['React', 'Next']
-    },
+        github_url: 'https://github.com/ashwinchandran13/spacex-graphql-next',
+        category: ['react'],
+        key_techs: ['Graphql', 'Nextjs']
+    }
 ]
