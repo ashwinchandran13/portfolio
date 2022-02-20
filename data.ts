@@ -100,5 +100,25 @@ export const projects:IProject[] = [
         github_url: 'https://github.com/ashwinchandran13/spacex-graphql-next',
         category: ['react'],
         key_techs: ['Graphql', 'Nextjs']
+    },
+    {
+        id: 3,
+        name: 'Redis Simple Search',
+        description: 'A data entry app to understand the capabilities of using key-value based db using redis-om, redis-search, Nextjs',
+        image_path: '/images/simple-search.png',
+        deployed_url: '',
+        github_url: 'https://github.com/ashwinchandran13/redis-simple-search',
+        category: ['react', 'node'],
+        key_techs: ['Redis', 'Nextjs', 'React', 'TailwindCss']
+    },
+    {
+        id: 4,
+        name: 'Neoito X Matrix ',
+        description: 'A landing page created in theme to the movie Matrix for a contest held at Neoito using Nextjs, TailwindCss V3, Framer Motion',
+        image_path: '/images/neoitoxmatrix.png',
+        deployed_url: 'https://neoitoxmatrix.vercel.app/',
+        github_url: 'https://github.com/ashwinchandran13/neoitoxmatrix',
+        category: ['react'],
+        key_techs: ['Nextjs', 'React', 'TailwindCss', 'Framer Motion']
     }
 ]
